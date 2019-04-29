@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/postgres" auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="100" maxIdle="30" maxWait="10000"
+              username="jamal"
+              password="abc123!@#"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://jml-site.ada.edu.az:5432/sdpscrn"/>
+    <ResourceLink name="jdbc/postgres"
+                  global="jdbc/postgres"
+                  type="javax.sql.DataSource" />
+
+</Context>
